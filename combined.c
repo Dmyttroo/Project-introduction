@@ -8,6 +8,11 @@
 #define Size 4
 #define WinCondition 2048
 
+void InputW(int arr[Size][Size]);
+void InputA(int arr[Size][Size]);
+void InputS(int arr[Size][Size]);
+void InputD(int arr[Size][Size]);
+
 
 int getColor(int value) { //ASCI colors 256 palette
     switch (value) {
